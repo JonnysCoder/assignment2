@@ -1,0 +1,47 @@
+Date for tutorials: 27-28/2/2025
+Date for account: about a month ago
+URL for forked repo: https://github.com/JonnysCoder/assignment2
+
+1.)jonat@Jonnys MINGW64 ~/assignment2/docs (master)
+$ git push
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 883 bytes | 883.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/JonnysCoder/assignment2.git
+   f4975e5..67951fc  master -> master
+
+
+2.) There have been 9 commits
+    The command used was: git rev-list --count HEAD
+
+
+3.) Date:   Fri Feb 28 23:40:56 2025 -0600
+    The command used was: git log -1 README.md
+
+4.) It isolates changes safely and enables parallel devlopment
+
+5.) git log displays the commit history where as git status shows the working 
+    tree aka describing which files are modified, unstaged, or untracked.
+
+6.) git log -- Vehicle.h
+
+7.) git log --grep="file"
+
+8.) I) Inheritance is where one class acquires the properties of another class
+    II) Polymorphism allows a single interface to be used for different 
+        implementaions
+    III) Encapsulation bundles data and the methods that use the data together
+         in a class and also restricts data access to some components
+
+9.) The main difference is that Dictator/Lieutenant workflow splits up the work
+    in a tiered higharchy where as Integration Manager workflow makes the 
+    manager do all the integration.
+
+10.) They would benefit because the Dicatators and Liuetenants workflow
+     allows a scalable model for a large team. Since the team is so large
+     many lieutenants can be appointed and the code can be smoothly integrated
